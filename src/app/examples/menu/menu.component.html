@@ -1,0 +1,46 @@
+<div class="page-header page-header-xs" data-parallax="true"
+    style="background-image: url('./assets/img/menuPicc.jpg');">
+    <div class="filter"></div>
+    <div class="container">
+        <div class="motto text-center">
+            <h1 style="font-weight: 800 !important; color: white !important; opacity: 1 !important;">
+                Find Your Perfect Cup
+            </h1>
+        </div>
+    </div>
+</div>
+<div class="main">
+    <div class="section text-center">
+        <div class="container">
+            <div class="row">
+                <div class="container" style="padding-left: 0px !important;">
+                    <div class="searchbar" style="margin-bottom: 10px;">
+                        <input class="search_input" type="text" name="" placeholder="Search Drinks...">
+                        <a href="#" class="search_icon"><i class="fas fa-search"></i></a>
+                    </div>
+
+                    <div>
+                        {{i}} {{item}}
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-4" style="padding: 10px;" *ngFor="let menuItem of menuItems">
+                            <div class="card" style="background-color: #f4f4f4;">
+                                <div class="info">
+                                    <div class="icon icon-danger">
+                                        <img src={{menuItem.imgUrl}} />
+                                    </div>
+                                    <div class="description">
+                                        <h4 class="info-title item-menu-heading">{{menuItem.title}}</h4>
+                                        <p class="description">{{menuItem.desc}}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

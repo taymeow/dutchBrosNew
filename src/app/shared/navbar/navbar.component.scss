@@ -1,0 +1,28 @@
+.logo-img{
+    width: 300px;
+    height: auto;
+}
+
+.navbar {
+    background:#006098;   /* for latest browsers */
+    color: white;
+    min-height: 56px;
+ }
+
+ .nav-link > i{
+    color:white;
+    opacity: 1 !important;
+ }
+
+ a.nav-link{
+    color:white !important;
+    opacity: 1 !important;
+ }
+
+ .navbar-toggler-bar{
+   background:white !important;
+ }
+ 
+ .nav-link{
+    cursor: pointer;
+ }
